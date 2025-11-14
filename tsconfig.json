@@ -1,0 +1,9 @@
+{
+  "include": ["index.ts"],
+  "compilerOptions": {
+    "composite": false,
+    "declaration": false,
+    "noEmit": true,
+    "baseUrl": "."
+  }
+}
