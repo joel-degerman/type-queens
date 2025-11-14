@@ -68,7 +68,7 @@ type Check<Qs extends P[], N = Qs['length']> = Qs extends [
   : true;
 
 // solves up to 15. stack overflow (ish) after that
-type X = Solution<4>;
+type X = Solution<8>;
 
 const t: Check<[[1, 0], [3, 1], [0, 2], [2, 3]]> = true;
 // @ts-expect-error
